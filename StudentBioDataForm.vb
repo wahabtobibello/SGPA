@@ -5,8 +5,8 @@
         student.fullName = fullNameTbx.Text
         student.faculty = facultyTbx.Text
         student.department = departmentTbx.Text
-        student.matricNo = matricNoTbx.Text
-        student.year = yearTbx.Text
+        student.matricNo = Convert.ToInt32(matricNoTbx.Text)
+        student.year = Convert.ToInt32(yearTbx.Text)
 
         form2 = New CourseForm(student)
         form2.ShowDialog()
