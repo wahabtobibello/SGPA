@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>SGPA</RootNamespace>
-    <StartupObject>SGPA.StudentBioDataForm</StartupObject>
+    <StartupObject>SGPA.SGPACalculator</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
