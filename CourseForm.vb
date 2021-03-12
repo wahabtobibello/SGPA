@@ -29,7 +29,10 @@
         If courses.Count = 0 Then
             MessageBox.Show("Please add atleast one course")
         Else
-
+            Dim calculatorForm As SGPACalculator = New SGPACalculator()
+            calculatorForm.student = student
+            calculatorForm.courses = courses
+            calculatorForm.ShowDialog()
         End If
     End Sub
 
