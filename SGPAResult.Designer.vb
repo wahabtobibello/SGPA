@@ -54,6 +54,7 @@ Partial Class SGPAResult
         Me.ListView1.Size = New System.Drawing.Size(262, 227)
         Me.ListView1.TabIndex = 12
         Me.ListView1.UseCompatibleStateImageBehavior = False
+        Me.ListView1.View = System.Windows.Forms.View.List
         '
         'SGPAResult
         '
