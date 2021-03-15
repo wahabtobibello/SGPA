@@ -12,7 +12,7 @@
             Dim course = New Course(courseCode, unit)
             courses.Add(course)
             Dim item As ListViewItem = New ListViewItem()
-            item.Text = course.courseCode + " (" + course.unit + " unit(s))"
+            item.Text = course.courseCode.ToString() + " (" + course.unit.ToString() + " unit(s))"
             courseListView.Items.Add(item)
             courseCodeTbx.Text = ""
             unitTbx.Text = ""

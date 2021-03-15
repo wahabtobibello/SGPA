@@ -34,11 +34,12 @@ Partial Class SGPACalculator
         'ListView1
         '
         Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(59, 152)
+        Me.ListView1.Location = New System.Drawing.Point(56, 177)
         Me.ListView1.Name = "ListView1"
         Me.ListView1.Size = New System.Drawing.Size(376, 167)
         Me.ListView1.TabIndex = 0
         Me.ListView1.UseCompatibleStateImageBehavior = False
+        Me.ListView1.View = System.Windows.Forms.View.List
         '
         'Label7
         '
@@ -71,11 +72,11 @@ Partial Class SGPACalculator
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button2.Location = New System.Drawing.Point(245, 350)
+        Me.Button2.Location = New System.Drawing.Point(302, 350)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(130, 34)
         Me.Button2.TabIndex = 13
-        Me.Button2.Text = "Submit"
+        Me.Button2.Text = "Calculate"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'TextBox1
